@@ -11,12 +11,8 @@ I'm not very familiar with coding and web project,so there is no api,just remove
 3. MySQL 5.7.11
 4. Nginx
 
-#Installation
-1. MySQL 5.7.11
-I used version 5.7.11 and compiled myself.First,you need to download MySQL source file like mysql-5.7.11.tar.gz.
-Install cmake and download boost before compile MySQL,so my command of compiling MySQL like this:
-   1. tar xvf mysql-5.7.11.tar.gz
-   2. cd mysql-5.7.11
-   3. cmake. -DDOWNLOAD_BOOST=1 -DWITH_BOOST=/tmp -DWITH_INNOBASE_STORAGE_ENGINE=1 -DDEFAULT_CHARSET=utf8 -DDEFAULT_COLLATION=utf8_general_ci
-   4. make && make install
-defualt installation path is /usr/local/mysql
+#How to deploy
+1. use lavarel framework to create a project
+2. gitclone this project files and put in your project directory
+3. modify your lavarel configuration files to suite for your environment
+4. configure your web proxy like nginx that can interpreter PHP language
