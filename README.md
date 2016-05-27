@@ -13,7 +13,7 @@ I'm not very familiar with coding and web project,so there is no api,just remove
 
 #Installation
 1. MySQL 5.7.11
-   I used version 5.7.11 and compiled myself.First,you need to download MySQL source file like mysql-5.7.11.tar.gz.
+I used version 5.7.11 and compiled myself.First,you need to download MySQL source file like mysql-5.7.11.tar.gz.
 Install cmake and download boost before compile MySQL,so my command of compiling MySQL like this:
    1. tar xvf mysql-5.7.11.tar.gz
    2. cd mysql-5.7.11
