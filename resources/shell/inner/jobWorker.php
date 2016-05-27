@@ -7,14 +7,14 @@ include_once(APP_LIB_PATH."/Crypt/RSA.php");
 include_once(APP_LIB_PATH."/functions.php");
 
 class jobWorker extends Thread {
-	protected $id = '';
-	protected $ip = '';
+    protected $id = '';
+    protected $ip = '';
     protected $hostname = '';
     protected $port = 22;
     protected $remoteUser = 'root';
     //protected $pubkey = '';
     protected $prikey = '';
-	//protected $timeElapse = 0 ;
+    //protected $timeElapse = 0 ;
     protected $timeOut = 0;
     protected $taskid = '';
     protected $jobid = '';
@@ -24,9 +24,9 @@ class jobWorker extends Thread {
     protected $workerTmpLog = '';
     protected $stepRela = 1;
     protected $comm = '';
-	//protected $count = 3;
+    //protected $count = 3;
 
-	protected $runnig = false;
+    protected $runnig = false;
     protected $log = '';
 
 
